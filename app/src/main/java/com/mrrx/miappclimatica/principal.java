@@ -37,7 +37,7 @@ public class principal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal);//
+        setContentView(R.layout.principal);
         etCity = findViewById(R.id.etCity);
         etCountry = findViewById(R.id.etCountry);
         txtResult = findViewById(R.id.txtResult);
